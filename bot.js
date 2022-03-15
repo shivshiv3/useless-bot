@@ -2,6 +2,8 @@ function answerQuery(query) {
   query = query.toLowerCase();
   if (query.indexOf("rain") != -1 || query.indexOf("sun") != -1 || query.indexOf("weather") != -1)
     return "I do not care too much about weather, I'm locked inside a data center.";
+    if (query.indexOf("cars") != -1 || query.indexOf("motorsport") != -1 || query.indexOf("speed") != -1)
+    return "The 2022 first Formula 1 race starts on 20/03/2022.";
   return "Sorry Dave, I cannot do that."
 }
 
