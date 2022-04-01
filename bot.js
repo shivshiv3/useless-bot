@@ -4,6 +4,8 @@ function answerQuery(query) {
     return "I do not care too much about weather, I'm locked inside a data center.";
     if (query.indexOf("car") != -1 || query.indexOf("motorsport") != -1 || query.indexOf("speed") != -1)
     return "The 2022 first Formula 1 race starts on 20/03/2022.";
+    if (query.indexOf("tea") != -1 || query.indexOf("biscuits") != -1 || query.indexOf("biscuit") != -1)
+    return "I also like tea and biscuits.";
   return "Sorry Dave, I cannot do that."
 }
 
